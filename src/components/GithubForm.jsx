@@ -43,7 +43,7 @@ const  GithubForm = ({ searchPerfil }) => {
         onChange={handleChange}
         value={form.name} 
         autoFocus 
-        autoComplete="false"
+        autoComplete="off"
       />
 
       <input type="submit" value="search" />
